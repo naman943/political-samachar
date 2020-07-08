@@ -1,0 +1,57 @@
+[Mon, 11 Sep 2017 18:40:40 +0000] [/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_message=59b6d8a77d3b8] [http://localhost/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_message=59b6d8977e8a0] skip processing because of generic constant
+[Mon, 11 Sep 2017 18:40:42 +0000] [/Politics/wp-content/cache/minify/22236w3tc_rewrite_test.css] [http://localhost/Politics/wp-content/cache/minify/22236w3tc_rewrite_test.css] start, can_cache: false
+[Mon, 11 Sep 2017 18:40:42 +0000] [/Politics/w3tc_rewrite_test13285] [http://localhost/Politics/w3tc_rewrite_test13285] start, can_cache: false
+[Mon, 11 Sep 2017 18:40:47 +0000] [/Politics/wp-admin/admin.php?page=w3tc_general] [http://localhost/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_message=59b6d8a77d3b8] skip processing because of generic constant
+[Mon, 11 Sep 2017 18:40:48 +0000] [/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_note=preview_enable] [http://localhost/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_message=59b6d8a77d3b8] skip processing because of generic constant
+[Mon, 11 Sep 2017 18:40:49 +0000] [/Politics/wp-content/cache/minify/3770w3tc_rewrite_test.css] [http://localhost/Politics/wp-content/cache/minify/3770w3tc_rewrite_test.css] start, can_cache: false
+[Mon, 11 Sep 2017 18:40:50 +0000] [/Politics/w3tc_rewrite_test8555] [http://localhost/Politics/w3tc_rewrite_test8555] start, can_cache: false
+[Mon, 11 Sep 2017 18:41:17 +0000] [/Politics/wp-admin/admin.php?w3tc_default_previewing=y&page=w3tc_general&_wpnonce=b171e6f03f] [http://localhost/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_note=preview_enable] skip processing because of generic constant
+[Mon, 11 Sep 2017 18:41:18 +0000] [/Politics/] [http://localhost/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_note=preview_enable] start, can_cache: false
+[Mon, 11 Sep 2017 18:41:25 +0000] [/Politics/] [http://localhost/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_note=preview_enable] storing cached page: false original false reason User is logged in
+[Mon, 11 Sep 2017 18:41:26 +0000] [/Politics/wp-content/cache/minify/8e4ed.css] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:41:26 +0000] [/Politics/wp-content/cache/minify/1d9a6.js] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:41:26 +0000] [/Politics/wp-content/cache/minify/aa090.js] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:41:26 +0000] [/Politics/wp-content/cache/minify/5d930.js] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:41:26 +0000] [/Politics/wp-content/cache/minify/6ff67.js] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:41:26 +0000] [/Politics/?hugeit_custom_css=1&ver=4.8.1] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:41:27 +0000] [/Politics/wp-content/cache/minify/8e4ed.css] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:41:28 +0000] [/Politics/wp-content/cache/minify/59a5e.js] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:41:28 +0000] [/Politics/wp-content/cache/minify/1d9a6.js] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:41:29 +0000] [/Politics/wp-content/cache/minify/6ff67.js] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:41:29 +0000] [/Politics/wp-content/cache/minify/5d930.js] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:41:30 +0000] [/Politics/wp-content/cache/minify/aa090.js] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:41:30 +0000] [/Politics/?hugeit_custom_css=1&ver=4.8.1] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:41:30 +0000] [/Politics/wp-content/cache/minify/59a5e.js] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:41:30 +0000] [/Politics/wp-content/cache/minify/126e4.js] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:41:30 +0000] [/Politics/wp-content/cache/minify/34b94.js] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:41:31 +0000] [/Politics/wp-content/cache/minify/126e4.js] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:41:32 +0000] [/Politics/wp-content/cache/minify/34b94.js] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:41:32 +0000] [/Politics/wp-admin/admin-ajax.php?action=w3tc_monitoring_score&b696e319ffcf45239beee610e90190c5] [http://localhost/Politics/] skip processing because of generic constant
+[Mon, 11 Sep 2017 18:41:32 +0000] [/Politics/wp-admin/admin-ajax.php?action=shareaholic_share_counts_api&url=http%3A%2F%2Flocalhost%2FPolitics%2F&services%5B%5D=pinterest&services%5B%5D=twitter&services%5B%5D=facebook&services%5B%5D=google_plus&services%5B%5D=email_this] [http://localhost/Politics/] skip processing because of generic constant
+[Mon, 11 Sep 2017 18:41:38 +0000] [/Politics/wp-admin/admin.php?page=w3tc_general] [http://localhost/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_note=preview_enable] skip processing because of generic constant
+[Mon, 11 Sep 2017 18:41:40 +0000] [/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_note=preview_disable] [http://localhost/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_note=preview_enable] skip processing because of generic constant
+[Mon, 11 Sep 2017 18:41:41 +0000] [/Politics/wp-content/cache/minify/20784w3tc_rewrite_test.css] [http://localhost/Politics/wp-content/cache/minify/20784w3tc_rewrite_test.css] start, can_cache: false
+[Mon, 11 Sep 2017 18:41:41 +0000] [/Politics/w3tc_rewrite_test25001] [http://localhost/Politics/w3tc_rewrite_test25001] start, can_cache: false
+[Mon, 11 Sep 2017 18:42:03 +0000] [/Politics/] [http://localhost/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_note=preview_disable] start, can_cache: false
+[Mon, 11 Sep 2017 18:42:08 +0000] [/Politics/] [http://localhost/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_note=preview_disable] storing cached page: false original false reason User is logged in
+[Mon, 11 Sep 2017 18:42:08 +0000] [/Politics/wp-content/cache/minify/8e4ed.css] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:42:08 +0000] [/Politics/wp-content/cache/minify/5d930.js] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:42:08 +0000] [/Politics/wp-content/cache/minify/1d9a6.js] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:42:08 +0000] [/Politics/wp-content/cache/minify/aa090.js] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:42:08 +0000] [/Politics/wp-content/cache/minify/6ff67.js] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:42:08 +0000] [/Politics/?hugeit_custom_css=1&ver=4.8.1] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:42:10 +0000] [/Politics/wp-content/cache/minify/8e4ed.css] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:42:10 +0000] [/Politics/wp-content/cache/minify/59a5e.js] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:42:10 +0000] [/Politics/wp-content/cache/minify/5d930.js] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:42:10 +0000] [/Politics/wp-content/cache/minify/1d9a6.js] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:42:11 +0000] [/Politics/wp-content/cache/minify/aa090.js] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:42:11 +0000] [/Politics/wp-content/cache/minify/6ff67.js] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:42:11 +0000] [/Politics/?hugeit_custom_css=1&ver=4.8.1] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:42:12 +0000] [/Politics/wp-content/cache/minify/59a5e.js] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:42:12 +0000] [/Politics/wp-content/cache/minify/34b94.js] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:42:12 +0000] [/Politics/wp-content/cache/minify/126e4.js] [http://localhost/Politics/] start, can_cache: false
+[Mon, 11 Sep 2017 18:42:12 +0000] [/Politics/wp-content/cache/minify/34b94.js] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:42:13 +0000] [/Politics/wp-content/cache/minify/126e4.js] [http://localhost/Politics/] storing cached page - not a cached content
+[Mon, 11 Sep 2017 18:42:13 +0000] [/Politics/wp-admin/admin-ajax.php?action=w3tc_monitoring_score&b696e319ffcf45239beee610e90190c5] [http://localhost/Politics/] skip processing because of generic constant
+[Mon, 11 Sep 2017 18:42:13 +0000] [/Politics/wp-admin/admin-ajax.php?action=shareaholic_share_counts_api&url=http%3A%2F%2Flocalhost%2FPolitics%2F&services%5B%5D=pinterest&services%5B%5D=twitter&services%5B%5D=facebook&services%5B%5D=google_plus&services%5B%5D=email_this] [http://localhost/Politics/] skip processing because of generic constant
+[Mon, 11 Sep 2017 18:42:47 +0000] [/Politics/wp-admin/admin.php?page=w3tc_general] [http://localhost/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_note=preview_disable] skip processing because of generic constant

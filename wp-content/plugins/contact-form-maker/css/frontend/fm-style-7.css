@@ -1,0 +1,850 @@
+.fm-form-container.fm-theme7 .fm-form v.wdform-page-and-images .other_input
+{
+max-width: none;
+}.fm-form-container.fm-theme7 .fm-form 
+button, .fm-form-container.fm-theme7 .fm-form
+input, .fm-form-container.fm-theme7 .fm-form
+select, .fm-form-container.fm-theme7 .fm-form
+textarea
+{
+font-size:14px;
+}.fm-form-container.fm-theme7 .fm-form 
+.warning, .fm-form-container.fm-theme7 .fm-form
+.error
+{
+background-color: #C9ADEF;
+border: 1px solid #E3E2E4;
+margin-bottom: 10px;
+color: #E3E2E4;
+padding: 5px;
+}.fm-form-container.fm-theme7 .fm-form 
+.warning *, .fm-form-container.fm-theme7 .fm-form
+.error *
+{
+margin:0;
+}.fm-form-container.fm-theme7 .fm-form 
+.recaptcha_input_area input
+{
+height:initial !important;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_grading input {
+	width: 100px;
+}.fm-form-container.fm-theme7 .fm-form 
+.ui-slider {
+	height: 6px;
+	background: #fff !important;
+	margin: 7px 0px;
+}.fm-form-container.fm-theme7 .fm-form 
+a.ui-slider-handle {
+	border-radius: 10px;
+	border: 2px solid #fff;
+	background: #A4A4A4;
+}.fm-form-container.fm-theme7 .fm-form 
+.ui-slider-range {
+	background: #A4A4A4 !important;
+}.fm-form-container.fm-theme7 .fm-form 
+.ui-slider-horizontal .ui-slider-handle {
+	top: -8px !important;
+}.fm-form-container.fm-theme7 .fm-form 
+a.ui-slider-handle {
+	border-radius: 10px;
+	border: 2px solid #fff;
+	background: #A4A4A4;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-matrix-cell input[type="text"] {
+	width: 100px;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-matrix-cell select {
+	width: 60px;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_section .wdform_column:last-child {
+	padding-right: 0px !important;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_preload {
+	display: none;
+	content: url(http://localhost/Politics/wp-content/plugins/contact-form-maker/images/02/bg.png);
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_grading {
+	padding: 3px 0px;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-matrix-table {
+	display: table;
+	border-spacing: 0px;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-matrix-column {
+	text-align: left;
+	display: table-cell;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-matrix-cell {
+	text-align: center;
+	display: table-cell;
+	padding: 6px 10px;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-matrix-head>div {
+	display: table-cell;
+	text-align: center;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-matrix-head {
+	display: table-row;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-matrix-row0 {
+	background: #DFDFDF;
+	display: table-row;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-matrix-row1 {
+	background: #E9E9E9;
+	display: table-row;
+}.fm-form-container.fm-theme7 .fm-form 
+.selected-text {
+	text-align: left;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-quantity {
+	width: 30px;
+	margin: 2px 0px;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_scale_rating label {
+	vertical-align: middle;
+}.fm-form-container.fm-theme7 .fm-form 
+.ui-corner-all {
+	border-radius: 3px;
+}.fm-form-container.fm-theme7 .fm-form 
+.ui-widget-content {
+	border: 0px;
+	background: transparent;
+}.fm-form-container.fm-theme7 .fm-form 
+a.ui-spinner-button:hover{
+	background: #5C00DA !important;
+	color: #fff;
+	outline: none;
+}.fm-form-container.fm-theme7 .fm-form 
+a.ui-spinner-button:active{
+	background: #5C00DA !important;
+	color: #fff;
+	outline: none;
+}.fm-form-container.fm-theme7 .fm-form 
+a.ui-spinner-button:focus{
+	background: #5C00DA !important;
+	color: #fff;
+	outline: none;
+}.fm-form-container.fm-theme7 .fm-form 
+a.ui-slider-handle:hover{
+	background: #5C00DA !important;
+	color: #fff;
+	outline: none;
+}.fm-form-container.fm-theme7 .fm-form 
+a.ui-slider-handle:active{
+	background: #5C00DA !important;
+	color: #fff;
+	outline: none;
+}.fm-form-container.fm-theme7 .fm-form 
+a.ui-slider-handle:focus{
+	background: #5C00DA !important;
+	color: #fff;
+	outline: none;
+}.fm-form-container.fm-theme7 .fm-form 
+ui-state-hover {
+	background: #5C00DA !important;
+	color: #fff;
+	outline: none;
+}.fm-form-container.fm-theme7 .fm-form 
+ui-slider {
+	background: #fff !important;
+}.fm-form-container.fm-theme7 .fm-form 
+.ui-state-default{
+	border: 1px solid #d3d3d3;
+	background: #DFDDDD;
+	font-weight: normal;
+	color: #555555;
+}.fm-form-container.fm-theme7 .fm-form 
+.ui-widget-content .ui-state-default{
+	border: 1px solid #d3d3d3;
+	background: #DFDDDD;
+	font-weight: normal;
+	color: #555555;
+}.fm-form-container.fm-theme7 .fm-form 
+.ui-widget-header .ui-state-default {
+	border: 1px solid #d3d3d3;
+	background: #DFDDDD;
+	font-weight: normal;
+	color: #555555;
+}.fm-form-container.fm-theme7 .fm-form 
+.ui-slider-range {
+	background: #ccc !important;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_map {
+	border: 6px solid #DCDCDC;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-page-and-images {
+	width: 100%;
+	border: 0px !important;
+}.fm-form-container.fm-theme7 .fm-form 
+.paypal-property {
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: middle;
+}.fm-form-container.fm-theme7 .fm-form 
+.sel-wrap {
+	display: inline-block;
+	vertical-align: middle;
+	width:100%;
+}.fm-form-container.fm-theme7 .fm-form 
+.sel-wrap select {
+	position: absolute;
+ z-index:-1;
+ width: 0px !important;
+}.fm-form-container.fm-theme7 .fm-form 
+.sel-imul {
+	display: inline-block;
+}.fm-form-container.fm-theme7 .fm-form 
+.sel-imul .sel-selected {
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	border-radius: 4px;
+	padding: 2px 0px 2px 2px;
+	font-size: 13px;
+	height: 22px;
+	line-height: 22px;
+	overflow: hidden;
+	background: #fff;
+	border: 0px solid #ccc;
+	background-position: right 2px center;
+	width: 100%;
+}.fm-form-container.fm-theme7 .fm-form 
+.sel-imul.act .sel-selected {
+	background: #fff;
+}.fm-form-container.fm-theme7 .fm-form 
+.sel-selected .sel-arraw {
+	height: 22px;
+	width: 29px;
+	background: url(http://localhost/Politics/wp-content/plugins/contact-form-maker/images/02/01.png) 50% 50% no-repeat;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 2px;
+}.fm-form-container.fm-theme7 .fm-form 
+.sel-imul:hover .sel-selected .sel-arraw {
+  }.fm-form-container.fm-theme7 .fm-form 
+.sel-imul.act .sel-selected .sel-arraw {
+  }.fm-form-container.fm-theme7 .fm-form 
+.sel-imul .sel-options {
+	background: #fff;
+	border: 1px solid #dbdbdb;
+	border-top: none;
+	position: absolute;
+	width: inherit;
+	display: none;
+	z-index: 10;
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}.fm-form-container.fm-theme7 .fm-form 
+.sel-options .sel-option {
+	padding: 3px 4px;
+	font-size: 13px;
+	border: 1px solid #fff;
+	border-right: none;
+	border-left: none;
+	text-align: left;
+}.fm-form-container.fm-theme7 .fm-form 
+.sel-options .sel-option:hover {
+	border-color: #dbdbdb;
+	cursor: pointer;
+}.fm-form-container.fm-theme7 .fm-form 
+.sel-options .sel-option.sel-ed {
+	background: #dbdbdb;
+	border-color: #dbdbdb;
+}.fm-form-container.fm-theme7 .fm-form 
+input[type=text]{
+	margin: 0px;
+}.fm-form-container.fm-theme7 .fm-form 
+input[type=password]{
+	margin: 0px;
+}.fm-form-container.fm-theme7 .fm-form 
+input[type=url]{
+	margin: 0px;
+}.fm-form-container.fm-theme7 .fm-form 
+input[type=email]{
+	margin: 0px;
+}.fm-form-container.fm-theme7 .fm-form 
+input.text{
+	margin: 0px;
+}.fm-form-container.fm-theme7 .fm-form 
+input.title{
+	margin: 0px;
+}.fm-form-container.fm-theme7 .fm-form 
+textarea{
+	margin: 0px;
+}.fm-form-container.fm-theme7 .fm-form 
+select {
+	margin: 0px;
+}.fm-form-container.fm-theme7 .fm-form 
+.form-error {
+	border-color: red !important;
+}.fm-form-container.fm-theme7 .fm-form 
+.form-error:focus {
+	border-color: red !important;
+}.fm-form-container.fm-theme7 .fm-form 
+
+.wdform-field {
+	display: table-cell;
+	padding: 5px 0px;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-label-section{
+	text-align: left;
+	display: table-cell;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-element-section {
+	text-align: left;
+	display: table-cell;
+	min-width: 140px;
+}.fm-form-container.fm-theme7 .fm-form 
+.file-upload input {
+	position: absolute;
+	visibility: hidden;
+}.fm-form-container.fm-theme7 .fm-form 
+.file-upload-status {
+	margin-left: 10px;
+	max-width: 200px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #888;
+	background: #fff;
+	position: absolute;
+	border-radius: 4px;
+	height: 24px;
+	border: 1px solid #ccc;
+	padding-left: 5px;
+	padding-right: 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	direction: rtl;
+	padding-top: 3px;
+	margin-top: 2px;
+}.fm-form-container.fm-theme7 .fm-form 
+.file-picker {
+	width: 41px;
+	height: 32px;
+	background: url(http://localhost/Politics/wp-content/plugins/contact-form-maker/images/02/02/upload.png);
+	display: inline-block;
+}.fm-form-container.fm-theme7 .fm-form 
+.next-page div.wdform-page-button {
+	color: #4D4A3C;
+	cursor: pointer;
+	display: inline-block;
+	height: 36px;
+	line-height: 33px;
+	background: url(http://localhost/Politics/wp-content/plugins/contact-form-maker/images/02/next.png) top right #5C00DA;
+	padding: 0px 30px 0 15px;
+	vertical-align: middle;
+	font-weight: 600;
+	font-size: 16px;
+}.fm-form-container.fm-theme7 .fm-form 
+.next-page div.wdform-page-button:hover {
+	background: url(http://localhost/Politics/wp-content/plugins/contact-form-maker/images/02/next.png) top right #3D0886;
+}.fm-form-container.fm-theme7 .fm-form .previous-page div.wdform-page-button {
+	color: #4D4A3C;
+	cursor: pointer;
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	background: url(http://localhost/Politics/wp-content/plugins/contact-form-maker/images/02/previous.png) top left #5C00DA;
+	padding: 0px 15px 0 30px;
+	vertical-align: middle;
+	font-weight: 600;
+	font-size: 16px;
+}.fm-form-container.fm-theme7 .fm-form 
+.previous-page div.wdform-page-button:hover {
+	background: url(http://localhost/Politics/wp-content/plugins/contact-form-maker/images/02/previous.png)  top left #3D0886;
+}.fm-form-container.fm-theme7 .fm-form 
+.button-submit {
+	background: url(http://localhost/Politics/wp-content/plugins/contact-form-maker/images/02/bg.png) #5C00DA;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 0px;
+	min-width: 80px;
+	min-height: 34px;
+	color: #4D4A3C;
+	margin: 5px;
+	border: 0px;
+	font-family: Segoe UI;
+	font-weight: 600;
+}.fm-form-container.fm-theme7 .fm-form 
+.button-reset {
+	background: transparent;
+	cursor: pointer;
+	font-size: 17px;
+	min-width: 80px;
+	min-height: 34px;
+	color: #787878;
+	border: 0px;
+	margin: 5px;
+	font-family: Segoe UI;
+	text-decoration: underline;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_page {
+	background: #E3E2E4;
+	padding: 15px 15px 15px 50px;
+	border-radius: 0px;
+	font-family: Segoe UI;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_column {
+	padding-right: 30px !important;
+	float: left;
+	border-spacing: 2px;
+	border-collapse: separate !important;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_column>div {
+	border-bottom: 1px solid #CFCFCF;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_column>.wdform_row:last-child {
+	border-bottom: 0px solid #E7E7E7;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-field-section-break {
+	text-align: center;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_section_break2 {
+	margin: 16px 10px 16px 0px;
+	display: inline-block;
+	background: url(http://localhost/Politics/wp-content/plugins/contact-form-maker/images/02/bg.png) #5C00DA;
+	text-align: left;
+	padding: 10px;
+	border-radius: 0px;
+	-moz-box-shadow: 7px -9px 20px -5px rgba(0, 0, 0, 0.23), -7px 9px 20px -5px rgba(0, 0, 0, 0.23);
+	-webkit-box-shadow: 7px -9px 20px -5px rgba(0, 0, 0, 0.23), -7px 9px 20px -5px rgba(0, 0, 0, 0.23);
+	box-shadow: 7px -9px 20px -5px rgba(0, 0, 0, 0.23), -7px 9px 20px -5px rgba(0, 0, 0, 0.23);
+	width: 466px;
+	text-align: center;
+font-size: 18px;
+font-family: Segoe UI;
+color: #292929;
+font-weight: 600;
+}.fm-form-container.fm-theme7 .fm-form 
+
+.wdform_section_break
+{
+margin: 16px 10px 16px 0px;
+text-align: left;
+font-size: 18px;
+font-family: Segoe UI;
+color: #292929;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_section {
+	display: table-row
+}.fm-form-container.fm-theme7 .fm-form 
+select {
+	border-radius: 4px;
+	height: 26px;
+	overflow: hidden;
+	border: 0px solid #ccc;
+	padding: 2px;
+	outline: none;
+}.fm-form-container.fm-theme7 .fm-form 
+input[type="text"] {
+	border-radius: 4px;
+	height: 25px;
+	border: 0px solid #ccc;
+	padding:0 3px !important;
+}.fm-form-container.fm-theme7 .fm-form 
+input[type="password"] {
+	border-radius: 4px;
+	height: 25px;
+	border: 0px solid #ccc;
+	padding:0 3px !important;
+}.fm-form-container.fm-theme7 .fm-form 
+textarea {
+	border-radius: 4px;
+	height: 25px;
+	border: 0px solid #ccc;
+	padding:0 3px !important;
+}.fm-form-container.fm-theme7 .fm-form 
+input[type="text"]:focus{
+	border-color: #FFB471;
+	outline: none;
+}.fm-form-container.fm-theme7 .fm-form 
+input[type="password"]:focus{
+	border-color: #FFB471;
+	outline: none;
+}.fm-form-container.fm-theme7 .fm-form 
+textarea:focus{
+	border-color: #FFB471;
+	outline: none;
+}.fm-form-container.fm-theme7 .fm-form 
+
+.input_deactive {
+	color: #999999;
+	font-style: italic;
+}.fm-form-container.fm-theme7 .fm-form 
+.input_active {
+	color: #000000;
+	font-style: normal;
+}.fm-form-container.fm-theme7 .fm-form 
+.am_pm_select {
+	width: 30px;
+	vertical-align: middle;
+}.fm-form-container.fm-theme7 .fm-form 
+.checkbox-div input[type=checkbox] {
+	position : absolute;
+	z-index: -1;
+}.fm-form-container.fm-theme7 .fm-form 
+.checkbox-div {
+	width: 13px;
+	height: 12px;
+	background: transparent;
+	border: 1px solid #A7A7A7;
+	border-radius: 0px;
+	position: relative;
+	display: inline-block;
+}.fm-form-container.fm-theme7 .fm-form 
+.checkbox-div label {
+	cursor: pointer;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 13px;
+	background: url(http://localhost/Politics/wp-content/plugins/contact-form-maker/images/02/checkbox.png);
+	border-radius: 0px;
+	top: -3px;
+	left: 1px;
+}.fm-form-container.fm-theme7 .fm-form 
+.checkbox-div label:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}.fm-form-container.fm-theme7 .fm-form 
+.checkbox-div .wdform-ch-rad-label:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-ch-rad-label:hover + .checkbox-div label {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}.fm-form-container.fm-theme7 .fm-form 
+.checkbox-div input[type=checkbox]:checked + label {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-calendar-button, .fm-form-container.fm-theme7 .fm-form
+.wdform-calendar-button:hover {
+  display:inline-block;
+	background: transparent url(http://localhost/Politics/wp-content/plugins/contact-form-maker/images/02/03/date.png) no-repeat left 50% !important;
+	border: 0px;
+	color: transparent;
+	width: 22px;
+	height: 24px;
+	position: relative;
+	left: -22px;
+	vertical-align: top;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-calendar-button:focus {
+ outline:none; 
+}.fm-form-container.fm-theme7 .fm-form 
+.radio-div input[type=radio] {
+	position : absolute;
+	z-index: -1;
+}.fm-form-container.fm-theme7 .fm-form 
+.forlabs {
+	float: right;
+	margin-right: 20px;
+}.fm-form-container.fm-theme7 .fm-form 
+.radio-div {
+	width: 13px;
+	height: 12px;
+	background: transparent;
+	border: 1px solid #A7A7A7;
+	border-radius: 0px;
+	position: relative;
+	display: inline-block;
+	top: 2px;
+}.fm-form-container.fm-theme7 .fm-form 
+.radio-div label {
+	cursor: pointer;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: "";
+	position: absolute;
+	width: 11px;
+	height: 10px;
+	background: #A7A7A7;
+	border-radius: 0px;
+	top: 1px;
+	left: 1px;
+}.fm-form-container.fm-theme7 .fm-form 
+.radio-div label:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}.fm-form-container.fm-theme7 .fm-form 
+.radio-div .wdform-ch-rad-label:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-ch-rad-label:hover + .radio-div label {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}.fm-form-container.fm-theme7 .fm-form 
+.radio-div input[type=radio]:checked + label {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}.fm-form-container.fm-theme7 .fm-form 
+.if-ie-div-label {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+	filter: alpha(opacity=100) !important;
+	opacity: 1 !important;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-ch-rad-label {
+	display: inline;
+	margin: -4px 5px 5px 5px;
+	float: left;
+	color: #000;
+	cursor: pointer
+}.fm-form-container.fm-theme7 .fm-form 
+textarea {
+	padding-top: 5px;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-date {
+  display:inline-block;
+	width: 105px
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_footer {
+	padding-top: 5px;
+	margin-top: 15px;
+}.fm-form-container.fm-theme7 .fm-form 
+.page-numbers {
+	vertical-align: middle;
+}.fm-form-container.fm-theme7 .fm-form 
+.time_box {
+	text-align: right;
+	width: 30px;
+	vertical-align: middle
+}.fm-form-container.fm-theme7 .fm-form 
+.mini_label {
+	font-size: 10px;
+	font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	color: #000;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-label {
+	border: none;
+	color: #000;
+	vertical-align: top;
+	line-height: 17px;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_colon {
+	color: #000
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_separator {
+	font-style: bold;
+	vertical-align: middle;
+	color: #000;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_line {
+	color: #000
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform-required {
+	border: none;
+	color: rgb(158, 0, 0);
+	vertical-align: top;
+}.fm-form-container.fm-theme7 .fm-form 
+.captcha_img {
+	border-width: 0px;
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+	border-radius: 4px;
+}.fm-form-container.fm-theme7 .fm-form 
+.captcha_refresh {
+	width: 30px;
+	height: 30px;
+	border-width: 0px;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: url(http://localhost/Politics/wp-content/plugins/contact-form-maker/images/refresh_black.png);
+}.fm-form-container.fm-theme7 .fm-form 
+.captcha_input {
+	height: 20px;
+	border-width: 1px;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}.fm-form-container.fm-theme7 .fm-form 
+.file_upload {
+	border: 0px solid white;
+	border-radius: 0px;
+	margin: 0px;
+	padding: 0px;
+	color: black;
+	background-color: white;
+}.fm-form-container.fm-theme7 .fm-form 
+.page_deactive {
+	font-size: 12px;
+ color: #3F3927;
+	cursor: pointer;
+	display: inline-block;
+	height: 20px;
+	text-align: center;
+	vertical-align: bottom;
+	padding-top: 5px;
+	padding: 5px 30px 0px 30px;
+	font-weight: bold;
+}.fm-form-container.fm-theme7 .fm-form 
+.page_deactive:nth-child(even) {
+	background-color: #DCDADB;
+}.fm-form-container.fm-theme7 .fm-form 
+.page_deactive:nth-child(odd) {
+	background-color: #D1CDCE;
+}.fm-form-container.fm-theme7 .fm-form 
+.page_active {
+	color: #FFF;
+	cursor: pointer;
+	background-color: #5C00DA;
+	display: inline-block;
+	vertical-align: bottom;
+	height: 25px;
+	text-align: center;
+	font-size: 18px;
+	padding: 5px 30px 0px 30px;
+}.fm-form-container.fm-theme7 .fm-form 
+.page_percentage_active {
+	padding: 0px;
+	margin: 0px;
+	border-spacing: 0px;
+	height: 17px;
+	line-height: 17px;
+	font-size: 15px;
+	float: left;
+	text-align: right !important;
+	z-index: 1;
+	position: relative;
+	background: #5C00DA ; /* Old browsers */
+	background: -moz-linear-gradient(left, #5C00DA 0%, #5C00DB 49%, #6600F0 84%, #7917FF 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #5C00DA ), color-stop(49%, #5C00DB ), color-stop(84%, #6600F0 ), color-stop(99%, #7917FF )); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #5C00DA 0%, #5C00DB 49%, #6600F0 84%, #7917FF 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #5C00DA 0%, #5C00DB 49%, #6600F0 84%, #7917FF 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #5C00DA 0%, #5C00DB 49%, #6600F0 84%, #7917FF 99%); /* IE10+ */
+	background: linear-gradient(to right, #5C00DA 0%, #5C00DB 49%, #6600F0 84%, #7917FF 99%); /* W3C */
+	vertical-align: middle;
+}.fm-form-container.fm-theme7 .fm-form 
+.page_percentage_deactive {
+	height: 17px;
+	line-height: 17px;
+	background-color: #D9D7D8;
+	text-align: left !important;
+	margin-bottom: 1px;
+}.fm-form-container.fm-theme7 .fm-form 
+.page_numbers {
+	font-size: 14px;
+	color: #000;
+}.fm-form-container.fm-theme7 .fm-form 
+.phone_area_code {
+	width: 50px;
+}.fm-form-container.fm-theme7 .fm-form 
+.phone_number {
+	width: 100px;
+}.fm-form-container.fm-theme7 .fm-form 
+button {
+	cursor: pointer;
+}.fm-form-container.fm-theme7 .fm-form 
+.other_input {
+	border-radius: 0px;
+	border-width: 1px;
+	height: 16px;
+	font-size: 12px;
+	padding: 1px;
+	margin: 1px;
+	margin-left: 25px;
+	z-index: 100;
+	position: absolute;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_page_navigation {
+	text-align: right !important;
+	margin-bottom: -2px;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_percentage_text {
+	margin: 3px 5px 3px 9px;
+	color: #fff;
+	font-weight: bold;
+font-size:13px;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_percentage_title {
+	color: #000000;
+	font-style: italic;
+	margin: 0px 0px 0px 40px;
+	display: inline-block;
+	line-height: 17px;
+	height: 17px;
+	vertical-align: middle;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_button button {
+	background: #0E4D92;
+	cursor: pointer;
+	font-size: 17px;
+	border-radius: 4px;
+	min-width: 80px;
+	min-height: 27px;
+	color: #fff;
+	border: 2px solid #0E3F77;
+	margin: 5px;
+	box-shadow: 0px 0px 2px #c9c9c9;
+	font-family: Segoe UI;
+}.fm-form-container.fm-theme7 .fm-form 
+.wdform_button button:active {
+	border: 2px solid #0B2D52;
+	background: #0E3F77;
+}.fm-form-container.fm-theme7 .fm-form 
+        .checkbox-div label span {
+          border: 1px solid #868686  !important;
+          display: inline-block;
+          height: 16px;
+          width: 16px;
+        }.fm-form-container.fm-theme7 .fm-form 
+        .radio-div label span {
+          border: 1px solid #868686  !important;
+          border-radius: 100%;
+          display: inline-block;
+          height: 16px;
+          width: 16px;
+        }.fm-form-container.fm-theme7 .fm-form 
+        .checkbox-div input[type='checkbox']:checked + label span:after {
+          content: '';
+          width: 16px;
+          height: 16px;
+          background:transparent url(http://localhost/Politics/wp-content/plugins/contact-form-maker/images/themes/checkboxes/1.png) no-repeat;
+          background-size: 100%;
+          border-radius: 0px;
+          margin: 0px;
+          display: block;
+        }.fm-form-container.fm-theme7 .fm-form 
+        .radio-div input[type='radio']:checked + label span:after {
+          content: '';
+          width: 6px;
+          height: 6px;
+          background: #777777;
+          border-radius: 10px;
+          margin: 5px;
+          display: block;
+        }.fm-form-container.fm-theme7 .fm-form 
+        .checkbox-div, .fm-form-container.fm-theme7 .fm-form .radio-div {
+          border: none;
+          box-shadow: none;
+          height: 17px;
+          background: none;
+        }.fm-form-container.fm-theme7 .fm-form 
+        .checkbox-div label, .fm-form-container.fm-theme7 .fm-form .radio-div label, .fm-form-container.fm-theme7 .fm-form .checkbox-div label:hover, .fm-form-container.fm-theme7 .fm-form .radio-div label:hover {
+          opacity: 1;
+          background: none;
+          border: none;
+          min-width: 140px;
+          line-height: 13px;
+        }.fm-form-container.fm-theme7 .fm-form 

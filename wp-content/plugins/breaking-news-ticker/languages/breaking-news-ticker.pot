@@ -1,0 +1,266 @@
+# Copyright (C) 2016 Breaking News Ticker
+# This file is distributed under the same license as the Breaking News Ticker package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Breaking News Ticker 2.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/breaking-news-"
+"ticker\n"
+"POT-Creation-Date: 2016-01-05 11:14+0600\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: admin/amity-settings-api.php:41 inc/widget.php:164
+msgid "Basic Options"
+msgstr ""
+
+#: admin/amity-settings-api.php:46 inc/widget.php:252
+msgid "Ticker Options"
+msgstr ""
+
+#: admin/amity-settings-api.php:51
+msgid "Style Options"
+msgstr ""
+
+#: admin/amity-settings-api.php:96
+msgid "Activate"
+msgstr ""
+
+#: admin/amity-settings-api.php:97
+msgid "Default: Activate"
+msgstr ""
+
+#: admin/amity-settings-api.php:107
+msgid "Breaking News Title"
+msgstr ""
+
+#: admin/amity-settings-api.php:108
+msgid "Type in the ticker title text."
+msgstr ""
+
+#: admin/amity-settings-api.php:115
+msgid "Display Posts"
+msgstr ""
+
+#: admin/amity-settings-api.php:116
+msgid "Enter the maximum number of posts. Default : 5"
+msgstr ""
+
+#: admin/amity-settings-api.php:123
+msgid "Posts Order"
+msgstr ""
+
+#: admin/amity-settings-api.php:124
+msgid "Default: DESC"
+msgstr ""
+
+#: admin/amity-settings-api.php:137
+msgid "Ticker Direction"
+msgstr ""
+
+#: admin/amity-settings-api.php:148
+msgid "Ticker Speed"
+msgstr ""
+
+#: admin/amity-settings-api.php:156
+msgid "Ticker Duration"
+msgstr ""
+
+#: admin/amity-settings-api.php:163
+msgid "Mouse Pause"
+msgstr ""
+
+#: admin/amity-settings-api.php:174
+msgid "Show Controls"
+msgstr ""
+
+#: admin/amity-settings-api.php:185
+msgid "Control Top Margin"
+msgstr ""
+
+#: admin/amity-settings-api.php:186
+msgid "Default: 5px"
+msgstr ""
+
+#: admin/amity-settings-api.php:195
+msgid "Border Radius"
+msgstr ""
+
+#: admin/amity-settings-api.php:196 admin/amity-settings-api.php:205
+msgid "Default: 0px"
+msgstr ""
+
+#: admin/amity-settings-api.php:204
+msgid "Border"
+msgstr ""
+
+#: admin/amity-settings-api.php:212
+msgid "Border Style"
+msgstr ""
+
+#: admin/amity-settings-api.php:213
+msgid "Default: Solid"
+msgstr ""
+
+#: admin/amity-settings-api.php:226
+msgid "Border Color"
+msgstr ""
+
+#: admin/amity-settings-api.php:234
+msgid "Title Length"
+msgstr ""
+
+#: admin/amity-settings-api.php:235
+msgid "Enter the maximum number of title Length. Default : 55"
+msgstr ""
+
+#: admin/amity-settings-api.php:242
+msgid "Title Font Size"
+msgstr ""
+
+#: admin/amity-settings-api.php:243 admin/amity-settings-api.php:275
+msgid "Default: 16px"
+msgstr ""
+
+#: admin/amity-settings-api.php:250
+msgid "Title Font Color"
+msgstr ""
+
+#: admin/amity-settings-api.php:258
+msgid "Title Background Color"
+msgstr ""
+
+#: admin/amity-settings-api.php:266
+msgid "Background Color"
+msgstr ""
+
+#: admin/amity-settings-api.php:274
+msgid "Headlines Font Size"
+msgstr ""
+
+#: admin/amity-settings-api.php:282
+msgid "Headlines Color"
+msgstr ""
+
+#: admin/class.settings-api.php:347
+msgid "Choose File"
+msgstr ""
+
+#: inc/functions.php:228
+msgid "Settings"
+msgstr ""
+
+#: inc/widget.php:8 inc/widget.php:144
+msgid "Breaking News"
+msgstr ""
+
+#: inc/widget.php:9
+msgid "A Breaking News Ticker Widget"
+msgstr ""
+
+#: inc/widget.php:161
+msgid "Widget Options"
+msgstr ""
+
+#: inc/widget.php:168
+msgid "Widget Title :"
+msgstr ""
+
+#: inc/widget.php:173
+msgid "Post Limit :"
+msgstr ""
+
+#: inc/widget.php:178
+msgid "Display Posts :"
+msgstr ""
+
+#: inc/widget.php:186
+msgid "Content Options"
+msgstr ""
+
+#: inc/widget.php:190
+msgid "Show Post Thumbnail :"
+msgstr ""
+
+#: inc/widget.php:193 inc/widget.php:279
+msgid "Yes"
+msgstr ""
+
+#: inc/widget.php:196 inc/widget.php:282
+msgid "No"
+msgstr ""
+
+#: inc/widget.php:202
+msgid "Thumbnail Width :"
+msgstr ""
+
+#: inc/widget.php:207
+msgid "Thumbnail Height :"
+msgstr ""
+
+#: inc/widget.php:212
+msgid "Post Title Length :"
+msgstr ""
+
+#: inc/widget.php:217
+msgid "Content Lenght :"
+msgstr ""
+
+#: inc/widget.php:222
+msgid "Post Category :"
+msgstr ""
+
+#: inc/widget.php:227
+msgid "All Categories"
+msgstr ""
+
+#: inc/widget.php:255
+msgid "Ticker Speed :"
+msgstr ""
+
+#: inc/widget.php:259
+msgid "Ticker Duration :"
+msgstr ""
+
+#: inc/widget.php:264
+msgid "Ticker Direction:"
+msgstr ""
+
+#: inc/widget.php:267
+msgid "Up"
+msgstr ""
+
+#: inc/widget.php:270
+msgid "Down"
+msgstr ""
+
+#: inc/widget.php:276
+msgid "Ticker Pause On Hover:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Breaking News Ticker"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://amitythemes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Breaking News Ticker Lite is a Free, lightweight, stylish, easy to use and "
+"flexible breaking news ticker."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Amity Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://amitythemes.com"
+msgstr ""

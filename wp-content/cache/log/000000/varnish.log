@@ -1,0 +1,4 @@
+[Mon, 11 Sep 2017 18:40:39 +0000] [http://localhost/Politics/.*] Connecting to  ...
+[Mon, 11 Sep 2017 18:40:39 +0000] [http://localhost/Politics/.*] PURGE /Politics/.* HTTP/1.1
+[Mon, 11 Sep 2017 18:40:39 +0000] [http://localhost/Politics/.*] Host: localhost
+[Mon, 11 Sep 2017 18:40:39 +0000] [http://localhost/Politics/.*] Bad response: HTTP/1.1 403 Forbidden

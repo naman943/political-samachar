@@ -1,0 +1,552 @@
+
+[Mon, 11 Sep 2017 18:40:42 +0000] [/Politics/wp-content/cache/minify/22236w3tc_rewrite_test.css] [1505155242.6372]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:40:43 +0000] [/Politics/w3tc_rewrite_test13285] [1505155243.3087]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:40:43 +0000] [/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_message=59b6d8a77d3b8] [1505155243.5992]
+Db cache debug info:
+Engine:             disk
+Total queries:      58
+Cached queries:     0
+Total query time:   0.3762
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'uninstall_plugins' LIMIT 1
+    2 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'jetpack_private_options' LIMIT 1
+    3 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_jetpack_idc_allowed' LIMIT 1
+    4 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_jetpack_idc_allowed' LIMIT 1
+    5 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'jetpack_sync_error_idc' LIMIT 1
+    6 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'wd_bwg_version' LIMIT 1
+    7 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'wd_bwg_options' LIMIT 1
+    8 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'opinionstage_popup' LIMIT 1
+    9 |   0.0006 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT autoload FROM wp_options WHERE option_name = '_transient_w3tc_message'
+   10 |   0.0009 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT autoload FROM wp_options WHERE option_name = '_transient_timeout_w3tc_message'
+   11 |   0.0008 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_w3tc.verify_plugins' LIMIT 1
+   12 |   0.0008 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_w3tc.verify_plugins' LIMIT 1
+   13 |   0.0006 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT * FROM wp_users WHERE user_login = 'cmn'
+   14 |   0.0007 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1) ORDER BY umeta_id ASC
+   15 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+   16 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_site_transient_update_plugins' LIMIT 1
+   17 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'db_upgraded' LIMIT 1
+   18 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_site_transient_update_themes' LIMIT 1
+   19 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'dismissed_update_core' LIMIT 1
+   20 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_site_transient_update_core' LIMIT 1
+   21 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT comment_approved, COUNT( * ) AS total
+		FROM wp_comments
+		
+		GROUP BY comment_approved
+   22 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'form_maker_pro_active' LIMIT 1
+   23 |   0.0142 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category') ORDER BY t.name ASC
+   24 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT term_id, meta_key, meta_value FROM wp_termmeta WHERE term_id IN (38,17,16,15,5,3,1) ORDER BY meta_id ASC
+   25 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'wd_form_maker_version' LIMIT 1
+   26 |   0.0013 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT * FROM wp_formmaker WHERE `id` IN (1,2,3,4,5,6,7,8,9)
+   27 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_jetpack_https_test' LIMIT 1
+   28 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_jetpack_https_test' LIMIT 1
+   29 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'Activated_Plugin_Shareaholic' LIMIT 1
+   30 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'shareaholic_activate_timestamp' LIMIT 1
+   31 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'shareaholic_review_dismiss' LIMIT 1
+   32 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'themegrill_demo_imported_id' LIMIT 1
+   33 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'themegrill_demo_imported_notice_dismiss' LIMIT 1
+   34 |   0.0007 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT DISTINCT YEAR( post_date ) AS year, MONTH( post_date ) AS month
+			FROM wp_posts
+			WHERE post_type = 'attachment'
+			ORDER BY post_date DESC
+   35 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'can_compress_scripts' LIMIT 1
+   36 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT * FROM wp_posts WHERE ID = 420 LIMIT 1
+   37 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (420) ORDER BY meta_id ASC
+   38 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_w3tc_license_status' LIMIT 1
+   39 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_w3tc_license_status' LIMIT 1
+   40 |   0.0782 |      disabled (WP_ADMIN)       | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_timeout_w3tc_license_status', '1505587241', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+   41 |   0.0412 |      disabled (WP_ADMIN)       | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_w3tc_license_status', 'no_key', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+   42 |   0.0008 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'themegrill_demo_importer_activated_id' LIMIT 1
+   43 |   0.0007 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'themegrill_demo_importer_reset_notice' LIMIT 1
+   44 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_site_transient_timeout_w3tc_rewrite_test_061a791518516197' LIMIT 1
+   45 |   0.0008 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_site_transient_w3tc_rewrite_test_061a791518516197' LIMIT 1
+   46 |    0.079 |      disabled (WP_ADMIN)       | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_site_transient_timeout_w3tc_rewrite_test_061a791518516197', '1505155272', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+   47 |   0.0321 |      disabled (WP_ADMIN)       | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_site_transient_w3tc_rewrite_test_061a791518516197', 'ok', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+   48 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_w3tc_rewrite_test_6f434f5524be9aa3' LIMIT 1
+   49 |   0.0006 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_w3tc_rewrite_test_6f434f5524be9aa3' LIMIT 1
+   50 |   0.0684 |      disabled (WP_ADMIN)       | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_timeout_w3tc_rewrite_test_6f434f5524be9aa3', '1505155273', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+   51 |   0.0368 |      disabled (WP_ADMIN)       | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_w3tc_rewrite_test_6f434f5524be9aa3', '1', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+   52 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'w3tc_nr_frontend_response_time' LIMIT 1
+   53 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_onesignal_transient_error' LIMIT 1
+   54 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_onesignal_transient_error' LIMIT 1
+   55 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_onesignal_transient_success' LIMIT 1
+   56 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_onesignal_transient_success' LIMIT 1
+   57 |   0.0007 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT  t.term_id, tt.parent, tt.count, tt.taxonomy FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category') ORDER BY t.name ASC
+   58 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT * FROM wp_huge_it_contact_contacts order by id ASC
+
+[Mon, 11 Sep 2017 18:40:48 +0000] [/Politics/wp-admin/admin.php?page=w3tc_general] [1505155248.1952]
+Db cache debug info:
+Engine:             disk
+Total queries:      2
+Cached queries:     0
+Total query time:   0.0025
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0009 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT comment_approved, COUNT( * ) AS total
+		FROM wp_comments
+		
+		GROUP BY comment_approved
+    2 |   0.0016 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT * FROM wp_formmaker WHERE `id` IN (1,2,3,4,5,6,7,8,9)
+
+[Mon, 11 Sep 2017 18:40:49 +0000] [/Politics/wp-content/cache/minify/3770w3tc_rewrite_test.css] [1505155249.8495]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:40:50 +0000] [/Politics/w3tc_rewrite_test8555] [1505155250.5659]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:40:50 +0000] [/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_note=preview_enable] [1505155250.809]
+Db cache debug info:
+Engine:             disk
+Total queries:      12
+Cached queries:     0
+Total query time:   0.2110
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT comment_approved, COUNT( * ) AS total
+		FROM wp_comments
+		
+		GROUP BY comment_approved
+    2 |   0.0016 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT * FROM wp_formmaker WHERE `id` IN (1,2,3,4,5,6,7,8,9)
+    3 |   0.0006 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT DISTINCT YEAR( post_date ) AS year, MONTH( post_date ) AS month
+			FROM wp_posts
+			WHERE post_type = 'attachment'
+			ORDER BY post_date DESC
+    4 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_site_transient_timeout_w3tc_rewrite_test_fb71978112d5cb3d' LIMIT 1
+    5 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_site_transient_w3tc_rewrite_test_fb71978112d5cb3d' LIMIT 1
+    6 |   0.0903 |      disabled (WP_ADMIN)       | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_site_transient_timeout_w3tc_rewrite_test_fb71978112d5cb3d', '1505155279', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+    7 |   0.0345 |      disabled (WP_ADMIN)       | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_site_transient_w3tc_rewrite_test_fb71978112d5cb3d', 'ok', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+    8 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_w3tc_rewrite_test_55fb8c8e11f83e19' LIMIT 1
+    9 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_w3tc_rewrite_test_55fb8c8e11f83e19' LIMIT 1
+   10 |   0.0479 |      disabled (WP_ADMIN)       | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_timeout_w3tc_rewrite_test_55fb8c8e11f83e19', '1505155280', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+   11 |   0.0334 |      disabled (WP_ADMIN)       | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_w3tc_rewrite_test_55fb8c8e11f83e19', '1', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+   12 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT * FROM wp_huge_it_contact_contacts order by id ASC
+
+[Mon, 11 Sep 2017 18:41:18 +0000] [/Politics/wp-admin/admin.php?w3tc_default_previewing=y&page=w3tc_general&_wpnonce=b171e6f03f] [1505155278.4299]
+Db cache debug info:
+Engine:             disk
+Total queries:      2
+Cached queries:     0
+Total query time:   0.0023
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0006 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT comment_approved, COUNT( * ) AS total
+		FROM wp_comments
+		
+		GROUP BY comment_approved
+    2 |   0.0017 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT * FROM wp_formmaker WHERE `id` IN (1,2,3,4,5,6,7,8,9)
+
+[Mon, 11 Sep 2017 18:41:25 +0000] [/Politics/] [1505155285.9736]
+Db cache debug info:
+Engine:             disk
+Total queries:      72
+Cached queries:     0
+Total query time:   0.5677
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0006 | disabled (query not cacheable) | not cached |             0 | SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC LIMIT 0, 7
+    2 |   0.0002 | disabled (query not cacheable) | not cached |             0 | SELECT FOUND_ROWS()
+    3 |   0.0454 |   disabled (user.logged_in)    | not cached |             0 | SELECT wp_posts.* FROM wp_posts WHERE ID IN (425,355,345,337,82,79,26)
+    4 |   0.0308 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.*, tr.object_id FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('category', 'post_tag', 'post_format', 'bwg_tag') AND tr.object_id IN (26, 79, 82, 337, 345, 355, 425) ORDER BY t.name ASC
+    5 |   0.0209 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (26,79,82,337,345,355,425) ORDER BY meta_id ASC
+    6 |   0.0141 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_bwg_theme
+    7 |   0.0128 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_bwg_shortcode
+    8 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT autoload FROM wp_options WHERE option_name = 'shareaholic_deprecations'
+    9 |   0.0004 |   disabled (user.logged_in)    | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'googlelanguagetranslator_manage_translations' LIMIT 1
+   10 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_posts WHERE ID = 68 LIMIT 1
+   11 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (433) ORDER BY meta_id ASC
+   12 |   0.0139 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_posts WHERE ID = 433 LIMIT 1
+   13 |   0.0136 |   disabled (user.logged_in)    | not cached |             0 | SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE t.term_id = 8
+   14 |   0.0194 |   disabled (user.logged_in)    | not cached |             0 | SELECT tr.object_id FROM wp_term_relationships AS tr INNER JOIN wp_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('nav_menu') AND tt.term_id IN ('8') ORDER BY tr.object_id ASC
+   15 |   0.0457 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (34,39,88,216,332,333,339,340,378,456,458) AND wp_posts.post_type = 'nav_menu_item' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.menu_order ASC
+   16 |   0.0014 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (34) ORDER BY meta_id ASC
+   17 |   0.0012 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (340) ORDER BY meta_id ASC
+   18 |   0.0012 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (339) ORDER BY meta_id ASC
+   19 |   0.0007 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (332) ORDER BY meta_id ASC
+   20 |   0.0007 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (333) ORDER BY meta_id ASC
+   21 |   0.2234 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (216) ORDER BY meta_id ASC
+   22 |   0.0007 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (378) ORDER BY meta_id ASC
+   23 |   0.0012 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (458) ORDER BY meta_id ASC
+   24 |   0.0008 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (39) ORDER BY meta_id ASC
+   25 |   0.0007 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (456) ORDER BY meta_id ASC
+   26 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (88) ORDER BY meta_id ASC
+   27 |   0.0008 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (327,212,376,21,454,86) AND wp_posts.post_type = 'page' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.post_date DESC
+   28 |   0.0006 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category') AND t.term_id IN ( 5,16,17,15,38 ) AND tt.count . 0 ORDER BY t.name ASC
+   29 |   0.0004 |   disabled (user.logged_in)    | not cached |             0 | SELECT term_id, meta_key, meta_value FROM wp_termmeta WHERE term_id IN (17,16,5) ORDER BY meta_id ASC
+   30 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_posts WHERE ID = 327 LIMIT 1
+   31 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_posts WHERE ID = 212 LIMIT 1
+   32 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_posts WHERE ID = 376 LIMIT 1
+   33 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_posts WHERE ID = 21 LIMIT 1
+   34 |   0.0006 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_posts WHERE ID = 454 LIMIT 1
+   35 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_posts WHERE ID = 86 LIMIT 1
+   36 |   0.0011 |   disabled (user.logged_in)    | not cached |             0 | SELECT wp_posts.* FROM wp_posts WHERE ID IN (426,356,371,372,83,80,62)
+   37 |    0.001 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (62,80,83,356,371,372,426) ORDER BY meta_id ASC
+   38 |    0.016 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category') AND t.name IN ('Politics')  LIMIT 1
+   39 |   0.0141 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category') ORDER BY t.term_id ASC
+   40 |   0.0004 |   disabled (user.logged_in)    | not cached |             0 | SELECT term_id, meta_key, meta_value FROM wp_termmeta WHERE term_id IN (1,3,15,38) ORDER BY meta_id ASC
+   41 |   0.0006 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category') AND t.name IN ('Election Result')  LIMIT 1
+   42 |   0.0006 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category') AND t.name IN ('News')  LIMIT 1
+   43 |   0.0006 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category') AND t.name IN ('Election Update')  LIMIT 1
+   44 |   0.0006 |   disabled (user.logged_in)    | not cached |             0 | SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC LIMIT 0, 10
+   45 |   0.0002 |   disabled (user.logged_in)    | not cached |             0 | SELECT FOUND_ROWS()
+   46 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT MONTH(post_date) AS month, YEAR(post_date) AS year
+		FROM wp_posts
+		WHERE post_date . '2017-09-01'
+		AND post_type = 'post' AND post_status = 'publish'
+			ORDER BY post_date DESC
+			LIMIT 1
+   47 |   0.0004 |   disabled (user.logged_in)    | not cached |             0 | SELECT MONTH(post_date) AS month, YEAR(post_date) AS year
+		FROM wp_posts
+		WHERE post_date . '2017-09-30 23:59:59'
+		AND post_type = 'post' AND post_status = 'publish'
+			ORDER BY post_date ASC
+			LIMIT 1
+   48 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT DISTINCT DAYOFMONTH(post_date)
+		FROM wp_posts WHERE post_date .= '2017-09-01 00:00:00'
+		AND post_type = 'post' AND post_status = 'publish'
+		AND post_date .= '2017-09-30 23:59:59'
+   49 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.post_date DESC LIMIT 0, 5
+   50 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE t.term_id = 30
+   51 |   0.0006 |   disabled (user.logged_in)    | not cached |             0 | SELECT tr.object_id FROM wp_term_relationships AS tr INNER JOIN wp_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('nav_menu') AND tt.term_id IN ('30') ORDER BY tr.object_id ASC
+   52 |   0.0006 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (390,391) AND wp_posts.post_type = 'nav_menu_item' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.menu_order ASC
+   53 |    0.006 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (390) ORDER BY meta_id ASC
+   54 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (391) ORDER BY meta_id ASC
+   55 |    0.001 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category') AND t.term_id IN ( 16,17 ) AND tt.count . 0 ORDER BY t.name ASC
+   56 |   0.0007 |   disabled (user.logged_in)    | not cached |             0 | SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE t.term_id = 31
+   57 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT tr.object_id FROM wp_term_relationships AS tr INNER JOIN wp_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('nav_menu') AND tt.term_id IN ('31') ORDER BY tr.object_id ASC
+   58 |   0.0008 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (392,393,394) AND wp_posts.post_type = 'nav_menu_item' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.menu_order ASC
+   59 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (392) ORDER BY meta_id ASC
+   60 |   0.0007 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (393) ORDER BY meta_id ASC
+   61 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (394) ORDER BY meta_id ASC
+   62 |   0.0012 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (376,327,212) AND wp_posts.post_type = 'page' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.post_date DESC
+   63 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE t.term_id = 32
+   64 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT tr.object_id FROM wp_term_relationships AS tr INNER JOIN wp_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('nav_menu') AND tt.term_id IN ('32') ORDER BY tr.object_id ASC
+   65 |   0.0006 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (396,397,461) AND wp_posts.post_type = 'nav_menu_item' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.menu_order ASC
+   66 |   0.0006 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (396) ORDER BY meta_id ASC
+   67 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (461) ORDER BY meta_id ASC
+   68 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (397) ORDER BY meta_id ASC
+   69 |   0.0007 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (21,454,86) AND wp_posts.post_type = 'page' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.post_date DESC
+   70 |   0.0004 |   disabled (user.logged_in)    | not cached |             0 | SELECT comment_approved, COUNT( * ) AS total
+		FROM wp_comments
+		
+		GROUP BY comment_approved
+   71 |   0.0004 |   disabled (user.logged_in)    | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'w3tc_minify' LIMIT 1
+   72 |    0.055 |   disabled (user.logged_in)    | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('w3tc_minify', '{\"1d9a6.js\":[\"Politics\\\\\\/wp-includes\\/js\\/jquery\\/jquery.js\",\"Politics\\\\\\/wp-includes\\/js\\/jquery\\/jquery-migrate.min.js\",\"Politics\\\\\\/wp-content\\/plugins\\/breaking-news-ticker\\/assets\\/js\\/newsTicker.min.js\",\"Politics\\\\\\/wp-content\\/plugins\\/breaking-news-ticker\\/assets\\/js\\/jquery.easing.min.js\",\"Politics\\\\\\/wp-content\\/plugins\\/google-language-translator\\/js\\/load-flags.js\",\"Politics\\\\\\/wp-content\\/plugins\\/google-language-translator\\/js\\/load-toolbar.js\"]}', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+
+[Mon, 11 Sep 2017 18:41:27 +0000] [/Politics/wp-content/cache/minify/8e4ed.css] [1505155287.9941]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:41:28 +0000] [/Politics/wp-content/cache/minify/1d9a6.js] [1505155288.5322]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:41:29 +0000] [/Politics/wp-content/cache/minify/6ff67.js] [1505155289.1146]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:41:29 +0000] [/Politics/wp-content/cache/minify/5d930.js] [1505155289.6827]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:41:30 +0000] [/Politics/wp-content/cache/minify/aa090.js] [1505155290.0789]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:41:30 +0000] [/Politics/?hugeit_custom_css=1&ver=4.8.1] [1505155290.3062]
+Db cache debug info:
+Engine:             disk
+Total queries:      1
+Cached queries:     0
+Total query time:   0.0553
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0553 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_huge_it_contact_general_options WHERE name= 'hugeit_custom_css'
+
+[Mon, 11 Sep 2017 18:41:30 +0000] [/Politics/wp-content/cache/minify/59a5e.js] [1505155290.6581]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:41:31 +0000] [/Politics/wp-content/cache/minify/126e4.js] [1505155291.5005]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:41:32 +0000] [/Politics/wp-content/cache/minify/34b94.js] [1505155292.3847]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:41:34 +0000] [/Politics/wp-admin/admin-ajax.php?action=w3tc_monitoring_score&b696e319ffcf45239beee610e90190c5] [1505155294.6797]
+Db cache debug info:
+Engine:             disk
+Total queries:      1
+Cached queries:     0
+Total query time:   0.0024
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0024 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_formmaker WHERE `id` IN (1,2,3,4,5,6,7,8,9)
+
+[Mon, 11 Sep 2017 18:41:36 +0000] [/Politics/wp-admin/admin-ajax.php?action=shareaholic_share_counts_api&url=http%3A%2F%2Flocalhost%2FPolitics%2F&services%5B%5D=pinterest&services%5B%5D=twitter&services%5B%5D=facebook&services%5B%5D=google_plus&services%5B%5D=email_this] [1505155296.6291]
+Db cache debug info:
+Engine:             disk
+Total queries:      8
+Cached queries:     0
+Total query time:   0.1031
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0025 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_formmaker WHERE `id` IN (1,2,3,4,5,6,7,8,9)
+    2 |    0.002 |   disabled (user.logged_in)    | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_shr_api_res-8bb3f33963f37125ac2924b36859deeb' LIMIT 1
+    3 |   0.0004 |   disabled (user.logged_in)    | not cached |             0 | SELECT autoload FROM wp_options WHERE option_name = '_transient_shr_api_res-8bb3f33963f37125ac2924b36859deeb'
+    4 |   0.0004 |   disabled (user.logged_in)    | not cached |             0 | SELECT autoload FROM wp_options WHERE option_name = '_transient_timeout_shr_api_res-8bb3f33963f37125ac2924b36859deeb'
+    5 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_shr_api_res-8bb3f33963f37125ac2924b36859deeb' LIMIT 1
+    6 |   0.0008 |   disabled (user.logged_in)    | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_shr_api_res-8bb3f33963f37125ac2924b36859deeb' LIMIT 1
+    7 |   0.0634 |   disabled (user.logged_in)    | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_timeout_shr_api_res-8bb3f33963f37125ac2924b36859deeb', '1505155596', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+    8 |   0.0331 |   disabled (user.logged_in)    | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_shr_api_res-8bb3f33963f37125ac2924b36859deeb', 'a:3:{s:6:\"status\";i:200;s:4:\"data\";a:3:{s:9:\"pinterest\";i:0;s:8:\"facebook\";i:0;s:11:\"google_plus\";i:0;}s:8:\"services\";a:3:{i:0;s:9:\"pinterest\";i:1;s:8:\"facebook\";i:2;s:11:\"google_plus\";}}', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+
+[Mon, 11 Sep 2017 18:41:39 +0000] [/Politics/wp-admin/admin.php?page=w3tc_general] [1505155299.9842]
+Db cache debug info:
+Engine:             disk
+Total queries:      2
+Cached queries:     0
+Total query time:   0.0019
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT comment_approved, COUNT( * ) AS total
+		FROM wp_comments
+		
+		GROUP BY comment_approved
+    2 |   0.0014 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT * FROM wp_formmaker WHERE `id` IN (1,2,3,4,5,6,7,8,9)
+
+[Mon, 11 Sep 2017 18:41:41 +0000] [/Politics/wp-content/cache/minify/20784w3tc_rewrite_test.css] [1505155301.6475]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:41:42 +0000] [/Politics/w3tc_rewrite_test25001] [1505155302.3775]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:41:42 +0000] [/Politics/wp-admin/admin.php?page=w3tc_general&w3tc_note=preview_disable] [1505155302.697]
+Db cache debug info:
+Engine:             disk
+Total queries:      12
+Cached queries:     0
+Total query time:   0.2102
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT comment_approved, COUNT( * ) AS total
+		FROM wp_comments
+		
+		GROUP BY comment_approved
+    2 |   0.0015 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT * FROM wp_formmaker WHERE `id` IN (1,2,3,4,5,6,7,8,9)
+    3 |   0.0007 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT DISTINCT YEAR( post_date ) AS year, MONTH( post_date ) AS month
+			FROM wp_posts
+			WHERE post_type = 'attachment'
+			ORDER BY post_date DESC
+    4 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_site_transient_timeout_w3tc_rewrite_test_1e58c1da00f52c82' LIMIT 1
+    5 |   0.0004 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_site_transient_w3tc_rewrite_test_1e58c1da00f52c82' LIMIT 1
+    6 |   0.0328 |      disabled (WP_ADMIN)       | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_site_transient_timeout_w3tc_rewrite_test_1e58c1da00f52c82', '1505155331', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+    7 |   0.0316 |      disabled (WP_ADMIN)       | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_site_transient_w3tc_rewrite_test_1e58c1da00f52c82', 'ok', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+    8 |   0.0009 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_w3tc_rewrite_test_462a8c247d1fa031' LIMIT 1
+    9 |   0.0008 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = '_transient_w3tc_rewrite_test_462a8c247d1fa031' LIMIT 1
+   10 |   0.1012 |      disabled (WP_ADMIN)       | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_timeout_w3tc_rewrite_test_462a8c247d1fa031', '1505155332', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+   11 |   0.0391 |      disabled (WP_ADMIN)       | not cached |             0 | INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_w3tc_rewrite_test_462a8c247d1fa031', '1', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+   12 |   0.0005 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT * FROM wp_huge_it_contact_contacts order by id ASC
+
+[Mon, 11 Sep 2017 18:42:08 +0000] [/Politics/] [1505155328.6025]
+Db cache debug info:
+Engine:             disk
+Total queries:      36
+Cached queries:     0
+Total query time:   0.1544
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0006 | disabled (query not cacheable) | not cached |             0 | SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC LIMIT 0, 7
+    2 |   0.0002 | disabled (query not cacheable) | not cached |             0 | SELECT FOUND_ROWS()
+    3 |   0.0008 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_bwg_theme
+    4 |   0.0003 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_bwg_shortcode
+    5 |   0.0346 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_format') AND tr.object_id IN (425) ORDER BY t.name ASC
+    6 |   0.0004 |   disabled (user.logged_in)    | not cached |             0 | SELECT autoload FROM wp_options WHERE option_name = 'shareaholic_deprecations'
+    7 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT tr.object_id FROM wp_term_relationships AS tr INNER JOIN wp_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('nav_menu') AND tt.term_id IN ('8') ORDER BY tr.object_id ASC
+    8 |   0.0009 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (34,39,88,216,332,333,339,340,378,456,458) AND wp_posts.post_type = 'nav_menu_item' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.menu_order ASC
+    9 |    0.001 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (327,212,376,21,454,86) AND wp_posts.post_type = 'page' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.post_date DESC
+   10 |   0.0062 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('bwg_tag') AND tr.object_id IN (425) ORDER BY t.name ASC
+   11 |   0.0053 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_format') AND tr.object_id IN (355) ORDER BY t.name ASC
+   12 |   0.0053 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('bwg_tag') AND tr.object_id IN (355) ORDER BY t.name ASC
+   13 |   0.0054 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_format') AND tr.object_id IN (345) ORDER BY t.name ASC
+   14 |   0.0061 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('bwg_tag') AND tr.object_id IN (345) ORDER BY t.name ASC
+   15 |   0.0063 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_format') AND tr.object_id IN (337) ORDER BY t.name ASC
+   16 |   0.0271 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('bwg_tag') AND tr.object_id IN (337) ORDER BY t.name ASC
+   17 |   0.0059 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_format') AND tr.object_id IN (82) ORDER BY t.name ASC
+   18 |   0.0059 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (82) ORDER BY t.name ASC
+   19 |   0.0057 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('bwg_tag') AND tr.object_id IN (82) ORDER BY t.name ASC
+   20 |   0.0056 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_format') AND tr.object_id IN (79) ORDER BY t.name ASC
+   21 |   0.0055 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (79) ORDER BY t.name ASC
+   22 |   0.0065 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('bwg_tag') AND tr.object_id IN (79) ORDER BY t.name ASC
+   23 |   0.0056 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_format') AND tr.object_id IN (26) ORDER BY t.name ASC
+   24 |   0.0056 |   disabled (user.logged_in)    | not cached |             0 | SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('bwg_tag') AND tr.object_id IN (26) ORDER BY t.name ASC
+   25 |   0.0007 |   disabled (user.logged_in)    | not cached |             0 | SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC LIMIT 0, 10
+   26 |   0.0002 |   disabled (user.logged_in)    | not cached |             0 | SELECT FOUND_ROWS()
+   27 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.post_date DESC LIMIT 0, 5
+   28 |   0.0006 |   disabled (user.logged_in)    | not cached |             0 | SELECT tr.object_id FROM wp_term_relationships AS tr INNER JOIN wp_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('nav_menu') AND tt.term_id IN ('30') ORDER BY tr.object_id ASC
+   29 |   0.0006 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (390,391) AND wp_posts.post_type = 'nav_menu_item' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.menu_order ASC
+   30 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT tr.object_id FROM wp_term_relationships AS tr INNER JOIN wp_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('nav_menu') AND tt.term_id IN ('31') ORDER BY tr.object_id ASC
+   31 |   0.0006 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (392,393,394) AND wp_posts.post_type = 'nav_menu_item' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.menu_order ASC
+   32 |   0.0009 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (376,327,212) AND wp_posts.post_type = 'page' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.post_date DESC
+   33 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT tr.object_id FROM wp_term_relationships AS tr INNER JOIN wp_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('nav_menu') AND tt.term_id IN ('32') ORDER BY tr.object_id ASC
+   34 |   0.0009 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (396,397,461) AND wp_posts.post_type = 'nav_menu_item' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.menu_order ASC
+   35 |   0.0007 |   disabled (user.logged_in)    | not cached |             0 | SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (21,454,86) AND wp_posts.post_type = 'page' AND ((wp_posts.post_status = 'publish'))  ORDER BY wp_posts.post_date DESC
+   36 |   0.0004 |   disabled (user.logged_in)    | not cached |             0 | SELECT comment_approved, COUNT( * ) AS total
+		FROM wp_comments
+		
+		GROUP BY comment_approved
+
+[Mon, 11 Sep 2017 18:42:10 +0000] [/Politics/wp-content/cache/minify/8e4ed.css] [1505155330.1506]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:42:10 +0000] [/Politics/wp-content/cache/minify/5d930.js] [1505155330.5722]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:42:10 +0000] [/Politics/wp-content/cache/minify/1d9a6.js] [1505155330.9089]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:42:11 +0000] [/Politics/wp-content/cache/minify/aa090.js] [1505155331.2532]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:42:11 +0000] [/Politics/wp-content/cache/minify/6ff67.js] [1505155331.5703]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:42:11 +0000] [/Politics/?hugeit_custom_css=1&ver=4.8.1] [1505155331.7423]
+Db cache debug info:
+Engine:             disk
+Total queries:      1
+Cached queries:     0
+Total query time:   0.0005
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0005 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_huge_it_contact_general_options WHERE name= 'hugeit_custom_css'
+
+[Mon, 11 Sep 2017 18:42:12 +0000] [/Politics/wp-content/cache/minify/59a5e.js] [1505155332.0439]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:42:12 +0000] [/Politics/wp-content/cache/minify/34b94.js] [1505155332.98]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:42:13 +0000] [/Politics/wp-content/cache/minify/126e4.js] [1505155333.3926]
+Db cache debug info:
+Engine:             disk
+Total queries:      0
+Cached queries:     0
+Total query time:   0.0000
+
+[Mon, 11 Sep 2017 18:42:15 +0000] [/Politics/wp-admin/admin-ajax.php?action=w3tc_monitoring_score&b696e319ffcf45239beee610e90190c5] [1505155335.1818]
+Db cache debug info:
+Engine:             disk
+Total queries:      1
+Cached queries:     0
+Total query time:   0.0018
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0018 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_formmaker WHERE `id` IN (1,2,3,4,5,6,7,8,9)
+
+[Mon, 11 Sep 2017 18:42:15 +0000] [/Politics/wp-admin/admin-ajax.php?action=shareaholic_share_counts_api&url=http%3A%2F%2Flocalhost%2FPolitics%2F&services%5B%5D=pinterest&services%5B%5D=twitter&services%5B%5D=facebook&services%5B%5D=google_plus&services%5B%5D=email_this] [1505155335.7868]
+Db cache debug info:
+Engine:             disk
+Total queries:      1
+Cached queries:     0
+Total query time:   0.0015
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0015 |   disabled (user.logged_in)    | not cached |             0 | SELECT * FROM wp_formmaker WHERE `id` IN (1,2,3,4,5,6,7,8,9)
+
+[Mon, 11 Sep 2017 18:42:49 +0000] [/Politics/wp-admin/admin.php?page=w3tc_general] [1505155369.1392]
+Db cache debug info:
+Engine:             disk
+Total queries:      5
+Cached queries:     0
+Total query time:   0.0068
+SQL info:
+    # | Time (s) |    Caching (Reject reason)     |   Status   | Data size (b) | Query
+    1 |   0.0006 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT comment_approved, COUNT( * ) AS total
+		FROM wp_comments
+		
+		GROUP BY comment_approved
+    2 |   0.0023 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT * FROM wp_formmaker WHERE `id` IN (1,2,3,4,5,6,7,8,9)
+    3 |   0.0022 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+    4 |   0.0011 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT *    FROM wp_links  WHERE 1=1 AND link_visible = 'Y'     ORDER BY link_name ASC
+    5 |   0.0006 |      disabled (WP_ADMIN)       | not cached |             0 | SELECT option_value FROM wp_options WHERE option_name = 'w3tc_state' LIMIT 1
